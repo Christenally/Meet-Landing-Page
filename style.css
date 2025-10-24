@@ -300,7 +300,7 @@ picture {
 footer {
   position: relative;
   min-height: 312px;
-  background-image: url(./starter-code/assets/desktop/image-footer.jpg);
+  background-image: url(../starter-code/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
 
