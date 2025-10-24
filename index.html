@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./starter-code/assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Meet LP</title>
+  </head>
+  <body>
+    <!-- Wrapper is 1400px wide -->
+    <div class="wrapper">
+      <header class="container-header">
+        <div class="header-logo">
+          <img src="./starter-code/assets/logo.svg" alt="Meet Logo" />
+        </div>
+      </header>
+      <main class="container-main">
+        <!-- HERO -->
+        <section class="container-hero hero-grid">
+          <picture>
+            <source
+              srcset="starter-code\assets\tablet\image-hero.png"
+              media="min-width: 768px"
+            />
+            <img src="./starter-code/assets/tablet/image-hero.png" alt="" />
+          </picture>
+          <div class="hero-left">
+            <img
+              src="./starter-code/assets/desktop/image-hero-left.png"
+              alt="Images of People"
+            />
+          </div>
+          <div class="hero-center">
+            <h1>
+              Group Chat <br />
+              for Everyone
+            </h1>
+            <p>
+              Meet makes it easy to connect with others face-to-face virtually
+              and callaborate across any device.
+            </p>
+            <div class="hero-center-buttons">
+              <button class="hero-button-1">
+                <p>Download</p>
+                <!-- v1.3 -->
+              </button>
+              <button class="hero-button-2">What is it?</button>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img
+              src="./starter-code/assets/desktop/image-hero-right.png"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <!-- Info Section  -->
+        <section class="container-info">
+          <div class="info-grid">
+            <div>
+              <div class="section-image-1"></div>
+              <div class="circle-thing">
+                <h3>01</h3>
+              </div>
+            </div>
+
+            <div class="customer-images">
+              <img
+                src="./starter-code/assets/desktop/image-woman-in-videocall.jpg"
+                alt="woman in videocall"
+              />
+              <img
+                src="./starter-code/assets/desktop/image-women-videochatting.jpg"
+                alt="women videochatting"
+              />
+              <img
+                src="./starter-code/assets/desktop/image-men-in-meeting.jpg"
+                alt="men in meeting"
+              />
+              <img
+                src="./starter-code/assets/desktop/image-man-texting.jpg"
+                alt="man texting"
+              />
+            </div>
+
+            <div class="info-text">
+              <h4>Built For Modern Use</h4>
+              <h2>
+                Smarter meetings, all <br />
+                in one place
+              </h2>
+              <p>
+                Send messages, share files, show your screen, and record your
+                meetings - all in one workspace. Control who can join with
+                invite-only team access, data encryption, and data export.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--Footer-  May god help us... -->
+      <footer>
+        <div class="overlay">
+          <div class="footer-image">
+            <div class="section-image-1"></div>
+            <div class="circle-thing">
+              <h3>02</h3>
+            </div>
+          </div>
+
+          <div class="footer-container">
+            <h2>
+              Experience more <br />
+              together
+            </h2>
+            <p>
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </p>
+            <button>
+              <p>Download</p>
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
